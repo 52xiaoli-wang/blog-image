@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>学子商城</title>
+  <style>
+    body{
+	  background:rgb(223,223,223,0.3);
+	  margin:0px
+	}
+	#d0{
+	  width:100%;
+	  height:110px;
+	  background:rgb(245,245,245);
+	  position:fixed;
+	  margin-top:-150px;
+	  z-index:999
+	}
+    #d1{
+	  width:1000px;
+	  height:100px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  position:relative
+	  
+	}
+	input{
+	  width:375px;
+	  height:29px;
+	  position:absolute;
+	  top:55px;
+	  left:215px;
+	  border:1px solid #1a8cff;
+	  background:rgb(245,245,245)
+	}
+	#n1{
+	  position:absolute;
+	  top:50px
+	}
+	#m1{
+	  position:absolute;
+	  top:54px;
+	  left:590px
+	}
+	#d2{
+	  height:30px;
+	  position:absolute;
+	  top:56px;
+	  left:513px;
+	  background:rgb(245,245,245);
+	  border:none;
+	  color:#8d8d8d
+	}
+	#d3{
+	  height:20px;
+	  width:242px;
+	  float:right;
+	  color:rgb(136,136,136);
+	  margin-top:55px;
+	  font-size:10px;
+	}
+	.c2{
+	position:relative;
+	top:5px
+	}
+	#d4{
+	  width:1000px;
+	  height:40px;
+	  margin:0 auto;
+	  margin-top:150px;
+	  border:1px solid rgb(245,245,245)
+	}
+	#t1{
+	  width:300px;
+	  color:rgb(193,193,193)
+	}
+	#d5{
+	  width:1000px;
+	  height:400px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  position:relative;
+	  overflow:hidden
+	}
+	#k1{
+	  width:4050px;
+	  animation:donghua 6s ease-out infinite
+	}
+	#k1>img{
+	  float:left
+	}
+	.k9{
+	  list-style:none;
+	  float:left;
+	}
+	ol{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -60px;
+      padding: 10px;
+      z-index: 999;
+	}
+	ol>li{
+	  width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin: 0 5px;
+      background-color: #fff;
+	}
+	@keyframes donghua{
+	  0%,25%{margin-left:0px}
+	  25%,50%{margin-left:-1000px}
+	  50%,75%{margin-left:-2000px}
+	  75%,100%{margin-left:-3000px}
+	}
+	.k2{
+	  width:35px;
+	  height:70px;
+	  position:absolute;
+	  background-color:rgba(128,128,128,0.5);
+	  font-size:35px;
+	  color:#d2d2d2;
+	  line-height:70px;
+	  text-align:center;
+	  top:165px;
+	  border-radius:5px
+	}
+	.k2:hover{
+	  background:rgba(128,128,128)
+	}
+	.k3{
+	  left:10px
+	}
+	.k4{
+	  right:10px
+	}
+	.k5:link{
+	  color:rgb(136,136,136)
+	}
+	.k5:visited{
+	  color:rgb(136,136,136)
+	}
+	.k5:hover{
+	  color:#2d96ff
+	}
+    .k6:link{
+	  color:rgb(208,208,208)
+	}
+	.k6:visited{
+	  color:rgb(208,208,208)
+	}
+	.k6:hover{
+	  color:#737373
+	}
+	.d6{
+	  width:1000px;
+	  height:40px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  margin-top:20px;
+	  font-size:25px;
+	  color:rgb(73,73,73)
+	}
+	hr{
+	  margin:0px
+	}
+	.d7{
+	  width:1002px;
+	  height:618px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  position:relative
+	}
+	#u1{
+	  margin:0px;
+	  padding:0px
+	}
+	.c3{
+	  height:371px
+	}
+	.c4{
+	  height:235px
+	}
+	.c5{
+	  width:609px;
+	  background:rgb(230,230,230);
+	}
+	.c6{
+	  position:absolute
+	}
+	.c7{
+	  width:381px;
+	  background:rgb(230,230,230);
+	  left:619px
+	}
+	.c8{
+	  width:377px;
+	  background:rgb(230,230,230);
+	}
+	.c8,.c9{
+	  top:381px
+	}
+	.c9{
+	  width:198px;
+	  background:rgb(230,230,230)
+	}
+	.c10{
+	  left:387px
+	}
+	.c11{
+	  left:595px
+	}
+	.c12{
+	  left:803px
+	}
+	#m2{
+	  position:absolute;
+	  right:30px;
+	  top:50px;
+	  transition:transform 1s
+	}
+	#m2:hover{
+	  transform:scale(1.1)
+	}
+	.d8{
+	  width:250px;
+	  height:220px;
+	  z-index:500;
+	  position:absolute;
+	  top:50px;
+	  left:50px
+	}
+	.d9{
+	  font-size:30px
+	}
+	.p1{
+	  margin-top:0px;
+	  font-size:12px;
+	  color:#888888
+	}
+	.p2{
+	  font-size:20px;
+	  color:rgb(57,153,249)
+	}
+	.s1{
+	  height:20px;
+	  width:70px;
+	  color:white;
+	  background:rgb(57,153,249);
+	  padding:10px 30px
+	}
+	a{
+	  text-decoration:none
+	}
+	a:link{
+	  color:white
+	}
+	a:visited{
+	  color:white
+	}
+	#m3{
+	  position:absolute;
+	  right:20px;
+	  top:100px;
+	  transition:transform 1s
+	}
+	#m3:hover{
+	  transform:scale(1.1)
+	}
+	.d10{
+	  width:200px;
+	  height:220px;
+	  z-index:500;
+	  position:absolute;
+	  top:50px;
+	  left:30px
+	}
+	#m4{
+	  position:absolute;
+	  right:10px;
+	  top:50px;
+	  transition:transform 1s
+	}
+	#m4:hover{
+	  transform:scale(1.1)
+	}
+	.s8{
+	  padding:5px 20px 
+	}
+	.s9{
+	  font-size:23px;
+	  color:#454545
+	}
+	.d11{
+	  width:160px;
+	  height:200px;
+	  z-index:500;
+	  position:absolute;
+	  top:50px;
+	  left:30px
+	}
+	.p3{
+	  margin-top:0px
+	}
+	.p4{
+	  margin-bottom:0px
+	}
+	.m5{
+	  position:absolute;
+	  transition:transform 1s
+	}
+	.m5:hover{
+	  transform:scale(1.1)
+	}
+	.d12{
+	  width:160px;
+	  height:150px;
+	  z-index:500;
+	  position:absolute;
+	  top:130px;
+	  left:30px
+	}
+	#q1{
+	  width:1000px;
+	  height:200px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  position:relative
+	}
+	.q2{
+	  position:absolute;
+	  top:70px
+	}
+	.q3{
+	  left:100px
+	}
+	.q4{
+	  left:360px
+	}
+	.q5{
+	  left:600px
+	}
+	.q6{
+	  left:850px
+	}
+	.t1{
+	  position:absolute;
+	  top:130px;
+	  font-size:12px;
+	  color:#8d8d8d
+	}
+	.t2{
+	  left:105px
+	}
+	.t3{
+	  left:365px
+	}
+	.t4{
+	  left:605px
+	}
+	.t5{
+	  left:855px
+	}
+	#r1{
+	  width:100%;
+	  height:225px;
+	  background:white;
+	
+	}
+	#r2{
+	  width:1000px;
+	  height:230px;
+	  border:1px solid rgb(245,245,245);
+	  margin:0 auto;
+	  position:relative
+	}
+	.f1{
+	  position:absolute
+	}
+	.f3{
+	  right:390px;
+	  top:130px
+	}
+	.f4{
+	  right:365px;
+	  top:128px
+	}
+	.f5{
+	  top:115px;
+	  right:125px
+	}
+	.f2{
+	  top:50px;
+	  left:20px
+	}
+	.f6{
+	  top:100px;
+	  left:20px
+	}
+	.f7{
+	  top:75px;
+	  right:125px
+	}
+	.f8{
+	  top:50px;
+	  right:20px
+	}
+	#f9{
+	  width:124px;
+	  height:25px ;
+	  position:absolute;
+	  top:50px;
+	  right:125px;
+	  font-size:13px
+	}
+	#f10{
+	  font-size:12px;
+	  position:absolute;
+	  top:180px;
+	  left:350px
+	}
+	.b1{
+	  position:absolute;
+	  top:30px;
+	  left:330px;
+	  line-height:25px
+	}
+	.b2{
+	  left:440px
+	}
+	.b3{
+	  left:550px
+	}
+	.g1{
+	  font-size:14px
+	}
+	.g1:link{
+	  color:black  
+	}
+	.g1:visited{
+	  color:black
+	}
+	.g2{
+	  font-size:12px
+	}
+	.g2:link{
+	  color:#8e8e8e  
+	}
+	.g2:visited{
+	  color:#8e8e8e
+	}
+	.g2:hover{
+	  color:black
+	}
+  </style>
+ </head>
+ <body>
+   <div id="d0">
+     <div class="c1" id="d1">
+       <a href="">
+	     <img src="sc/logo.png" alt="" id="n1">
+	   </a>
+	   <input type="text" placeholder="请输入您要搜索的内容">
+	   <a href="">
+	     <img src="sc/search.png" alt="" id="m1">
+	   </a>
+	   <select name="" id="d2">
+	      <option value="">
+	        分类搜索
+	      </option>
+	   </select>
+	   <div id="d3">
+	     <a href="">
+		   <img src="sc/care.png" alt="" class="c2">
+		 </a>&nbsp;&nbsp;丨&nbsp;&nbsp;
+	     <a href="">
+		   <img src="sc/order.png" alt="" class="c2">
+		 </a>&nbsp;&nbsp;丨&nbsp;&nbsp;
+	     <a href="">
+		   <img src="sc/shop_car.png" alt="" class="c2">
+		 </a>&nbsp;&nbsp;丨&nbsp;&nbsp;
+	     <a href="" class="k5">注册</a>&nbsp;&nbsp;丨&nbsp;&nbsp;
+		 <a href="" class="k5">登录</a>
+	   </div>
+     </div>
+   </div>
+   <div id="d4">
+     <table id="t1">
+     	<tr>
+     		<td>
+			  <a href="index.html" class="k6">首页</a>
+			</td>
+     		<td align="center">
+			  <a href="sc/xuexi/学习跳转.html" class="k6">学习用品</a>
+			</td>
+     		<td align="center">
+			  <a href="sc/xuexi/学习跳转.html" class="k6">私人订制</a>
+			</td>
+     	</tr>
+     </table>
+   </div>
+   <div id="d5">
+     <div id="k1">
+	   <a href="">
+	     <img src="sc/banner1.png" alt="">
+	   </a>
+	   <a href="">
+	     <img src="sc/banner2.png" alt="">
+	   </a>
+	   <a href="">
+	     <img src="sc/banner3.png" alt="">
+	   </a>
+	   <a href="">
+	     <img src="sc/banner4.png" alt="">
+	   </a>
+	 </div>
+	 <div class="k2 k3">&lt</div>
+	 <div class="k2 k4">&gt</div>
+	 <ol>
+	 	<li class="k9"></li>
+	 	<li class="k9"></li>
+	 	<li class="k9"></li>
+	 	<li class="k9"></li>
+	 </ol>
+   </div>
+   <div class="d6">
+     <img src="sc/computer_icon.png" alt="">
+	 &nbsp;&nbsp;首页推荐 /1F 
+	 <hr size="2px" color="#b3b3b3">	
+   </div>
+   <div class="d7">
+     <ul type="none" id="u1">
+     	<li class="c3 c5 c6">
+		  <div class="d8">
+		    <div class="d9">
+			  App l e MacBook A i r系列
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存
+			</p>
+			<p class="p2">
+			  ¥ 6988.00
+			</p>
+			<div class="s1">
+			  <a href="sc/xiangqing/详情.html" target="_self">查看详情</a>
+			</div>
+		  </div>
+		  <a href="sc/xiangqing/详情.html">
+		    <img src="sc/study_computer_img1.png" alt="" id="m2">
+		  </a>
+		</li>
+     	<li class="c3 c6 c7">
+		  <div class="d10">
+		    <div class="d9">
+			  小米A i r 金属轻薄
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡
+			</p>
+			<p class="p2">
+			  ¥ 3488.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img2.png" alt="" id="m3">
+          </a>
+		</li>
+     	<li class="c4 c6 c8">
+		<div class="d11">
+		    <div class="s9">
+			  联想E480C 轻薄系列
+			</div>
+			<p class="p2 p3">
+			  ¥ 5399.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" id="m4">
+		  </a>
+		</li>
+     	<li class="c4 c6 c9 c10">
+		  <div class="d12">
+			<p class="p1 p4">
+			  华硕RX310 金属超极本
+			</p>
+			<p class="p2 p3">
+			  ¥ 4966.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img4.png" alt="" class="m5">
+          </a>
+		</li>
+     	<li class="c4 c6 c9 c11">
+		  <div class="d12">
+			<p class="p1 p4">
+			  联想小新700 电竞版游戏本
+			</p>
+			<p class="p2 p3">
+			  ¥ 6299.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img5.png" alt="" class="m5">
+		  </a>		  
+		</li>
+     	<li class="c4 c6 c9 c12">
+		  <div class="d12">
+			<p class="p1 p4">
+			  戴尔灵越燃7000 轻薄窄边
+			</p>
+			<p class="p2 p3">
+			  ¥ 5199.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" class="m5">
+		  </a>
+		</li>
+     </ul>
+   </div>
+   <div class="d6">
+     <img src="sc/computer_icon.png" alt="">
+	 &nbsp;&nbsp;最新上架 /2F 
+	 <hr size="2px" color="#b3b3b3">	
+   </div>
+   <div class="d7">
+     <ul type="none" id="u1">
+     	<li class="c3 c5 c6">
+		  <div class="d8">
+		    <div class="d9">
+			  App l e MacBook A i r系列
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存
+			</p>
+			<p class="p2">
+			  ¥ 6988.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img1.png" alt="" id="m2">
+		  </a>
+		</li>
+     	<li class="c3 c6 c7">
+		  <div class="d10">
+		    <div class="d9">
+			  小米A i r 金属轻薄
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡
+			</p>
+			<p class="p2">
+			  ¥ 3488.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img2.png" alt="" id="m3">
+          </a>
+		</li>
+     	<li class="c4 c6 c8">
+		<div class="d11">
+		    <div class="s9">
+			  联想E480C 轻薄系列
+			</div>
+			<p class="p2 p3">
+			  ¥ 5399.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" id="m4">
+		  </a>
+		</li>
+     	<li class="c4 c6 c9 c10">
+		  <div class="d12">
+			<p class="p1 p4">
+			  华硕RX310 金属超极本
+			</p>
+			<p class="p2 p3">
+			  ¥ 4966.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img4.png" alt="" class="m5">
+          </a>
+		</li>
+     	<li class="c4 c6 c9 c11">
+		  <div class="d12">
+			<p class="p1 p4">
+			  联想小新700 电竞版游戏本
+			</p>
+			<p class="p2 p3">
+			  ¥ 6299.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img5.png" alt="" class="m5">
+		  </a>		  
+		</li>
+     	<li class="c4 c6 c9 c12">
+		  <div class="d12">
+			<p class="p1 p4">
+			  戴尔灵越燃7000 轻薄窄边
+			</p>
+			<p class="p2 p3">
+			  ¥ 5199.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" class="m5">
+		  </a>
+		</li>
+     </ul>
+   </div>
+   <div class="d6">
+     <img src="sc/computer_icon.png" alt="">
+	 &nbsp;&nbsp;热销单品 /3F 
+	 <hr size="2px" color="#b3b3b3">	
+   </div>
+   <div class="d7">
+     <ul type="none" id="u1">
+     	<li class="c3 c5 c6">
+		  <div class="d8">
+		    <div class="d9">
+			  App l e MacBook A i r系列
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存
+			</p>
+			<p class="p2">
+			  ¥ 6988.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img1.png" alt="" id="m2">
+		  </a>
+		</li>
+     	<li class="c3 c6 c7">
+		  <div class="d10">
+		    <div class="d9">
+			  小米A i r 金属轻薄
+			</div>
+			<p class="p1">
+			  酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡
+			</p>
+			<p class="p2">
+			  ¥ 3488.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img2.png" alt="" id="m3">
+          </a>
+		</li>
+     	<li class="c4 c6 c8">
+		<div class="d11">
+		    <div class="s9">
+			  联想E480C 轻薄系列
+			</div>
+			<p class="p2 p3">
+			  ¥ 5399.00
+			</p>
+			<div class="s1">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" id="m4">
+		  </a>
+		</li>
+     	<li class="c4 c6 c9 c10">
+		  <div class="d12">
+			<p class="p1 p4">
+			  华硕RX310 金属超极本
+			</p>
+			<p class="p2 p3">
+			  ¥ 4966.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img4.png" alt="" class="m5">
+          </a>
+		</li>
+     	<li class="c4 c6 c9 c11">
+		  <div class="d12">
+			<p class="p1 p4">
+			  联想小新700 电竞版游戏本
+			</p>
+			<p class="p2 p3">
+			  ¥ 6299.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img5.png" alt="" class="m5">
+		  </a>		  
+		</li>
+     	<li class="c4 c6 c9 c12">
+		  <div class="d12">
+			<p class="p1 p4">
+			  戴尔灵越燃7000 轻薄窄边
+			</p>
+			<p class="p2 p3">
+			  ¥ 5199.00
+			</p>
+			<div class="s1 s8">
+			  <a href="">查看详情</a>
+			</div>
+		  </div>
+		  <a href="">
+		    <img src="sc/study_computer_img3.png" alt="" class="m5">
+		  </a>
+		</li>
+     </ul>
+   </div>
+   <div id="q1">
+     <img src="sc/icon1.png" alt="" class="q2 q3">
+	 <img src="sc/icon2.png" alt="" class="q2 q4">
+	 <img src="sc/icon3.png" alt="" class="q2 q5">
+	 <img src="sc/icon4.png" alt="" class="q2 q6">
+	 <div class="t1 t2">品质保障</div>
+	 <div class="t1 t3">私人订制</div>
+	 <div class="t1 t4">学员特供</div>
+	 <div class="t1 t5">专属特权</div>
+   </div>
+   <div id="r1">
+     <div id="r2" align="center">
+	   <img src="sc/logo.png" alt="" class="f1 f2">
+	   <img src="sc/wechat.png" alt="" class="f1 f3">
+	   <img src="sc/sinablog.png" alt="" class="f1 f4">
+	   <a href="">
+	     <img src="sc/android.png" alt="" class="f1 f5">
+	   </a>
+	   <img src="sc/footerFont.png" alt="" class="f1 f6">
+	   <a href="">
+	     <img src="sc/ios.png" alt="" class="f1 f7">
+	   </a>
+	   <img src="sc/erweima.png" alt="" class="f1 f8">
+	   <div id="f9" align="center">学子商城客户端</div>
+	   <ul type="none" class="b1">
+	     <li>
+		   <a href="" class="g1">买家帮助</a>
+		 </li>
+	     <li>
+		   <a href="" class="g2">新手指南</a>
+		 </li>
+	     <li>
+		   <a href="" class="g2">服务保障</a>
+		 </li>
+	     <li>
+		   <a href="" class="g2">常见问题</a>
+		 </li>
+	   </ul>
+	   <ul type="none" class="b1 b2">
+		 <li>
+		   <a href="" class="g1">商家帮助</a>
+		 </li>
+		 <li>
+		   <a href="" class="g2">商家入驻</a>
+		 </li>
+		 <li>
+		   <a href="" class="g2">商家后台</a>
+		 </li>
+	   </ul>
+	   <ul type="none" class="b1 b3">
+		 <li>
+		   <a href="" class="g1">关于我们</a>
+		 </li>
+		 <li>
+		   <a href="" class="g2">关于达内</a>
+		 </li>
+		 <li>
+		   <a href=""class="g2">联系我们</a>
+		 </li>
+	   </ul>
+	   <div id="f10">
+	     ©2017 达内科技有限公司 版权所有 京ICP备08000853号-75
+	   </div>
+	 </div>
+   </div>
+ </body>
+</html>
